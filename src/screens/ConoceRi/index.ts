@@ -1,0 +1,1 @@
+export { ConoceRi } from "./ConoceRi";

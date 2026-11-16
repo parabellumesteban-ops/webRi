@@ -1,0 +1,66 @@
+.ri-font {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+/* Base hardening for iOS/Safari mobile rendering */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+.ri-body {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: clamp(1rem, 3.2vw, 1.35rem);
+  line-height: 1.5;
+  font-weight: 400;
+  color: #4D4C4F;
+}
+
+.ri-body-lg {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: clamp(1.125rem, 3.8vw, 1.6rem);
+  line-height: 1.45;
+  font-weight: 500;
+  color: #4D4C4F;
+}
+
+.ri-h3 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  line-height: 1.2;
+  font-weight: 500;
+  color: #4D4C4F;
+}
+
+.ri-h3-strong {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: clamp(1.75rem, 5.4vw, 3rem);
+  line-height: 1.15;
+  font-weight: 600;
+  color: #4D4C4F;
+}

@@ -1,0 +1,1 @@
+export { HeroImageWrapperSection } from "./HeroImageWrapperSection";

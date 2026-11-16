@@ -1,0 +1,1 @@
+export { FooterInfoWrapperSection } from "./FooterInfoWrapperSection";
